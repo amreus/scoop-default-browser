@@ -9,7 +9,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\ScoopFirefox\Capabilities]
 "ApplicationDescription"="Scoop Firefox"
 ;; "ApplicationIcon"="C:\\FirefoxPortable\\FirefoxPortable.exe,0"
-"ApplicationIcon"="C:\\Users\\Jim\\scoop\\apps\\firefox\\current\\Firefox.exe,0"
+"ApplicationIcon"="C:\\Users\\_USERNAME_\\scoop\\apps\\firefox\\current\\Firefox.exe,0"
 "ApplicationName"="Scoop Firefox"
 
 [HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\ScoopFirefox\Capabilities\FileAssociations]
@@ -28,7 +28,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\ScoopFirefox\DefaultIcon]
 ;@="C:\\FirefoxPortable\\FirefoxPortable.exe,0"
-@="C:\\Users\\Jim\\scoop\\apps\\firefox\\current\\firefox.exe,0"
+@="C:\\Users\\_USERNAME_\\scoop\\apps\\firefox\\current\\firefox.exe,0"
 
 [HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\ScoopFirefox\shell]
 
@@ -36,7 +36,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\ScoopFirefox\shell\open\command]
 ;@="\"%USERPROFILE%\\scoop\\shims\\firefox.exe\""
-@="\"C:\\Users\\Jim\\scoop\\shims\\firefox.exe\" \"%*\""
+@="\"C:\\Users\\_USERNAME_\\scoop\\shims\\firefox.exe\" \"%*\""
 
 [HKEY_CURRENT_USER\Software\Classes\ScoopFirefoxHTM]
 @="FirefoxPortable Handler"
@@ -45,7 +45,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\ScoopFirefoxHTM\Application]
 "AppUserModelId"="ScoopFirefox"
 ;;"ApplicationIcon"="C:\\FirefoxPortable\\FirefoxPortable.exe,0"
-"ApplicationIcon"="C:\\Users\\Jim\\scoop\\apps\\firefox\\current\\Firefox.exe,0"
+"ApplicationIcon"="C:\\Users\\_USERNAME_\\scoop\\apps\\firefox\\current\\Firefox.exe,0"
 "ApplicationName"="ScoopFirefox"
 "ApplicationDescription"="Browse the web"
 ;"ApplicationCompany"="Firefox Portable"
@@ -53,7 +53,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\ScoopFirefoxHTM\DefaultIcon]
 ;;@="C:\\FirefoxPortable\\FirefoxPortable.exe,0"
 ;@="%USERPROFILE%\\scoop\\apps\\firefox\\current\Firefox.exe,0"
-@="C:\\Users\\Jim\\scoop\\apps\\firefox\\current\\Firefox.exe,0"
+@="C:\\Users\\_USERNAME_\\scoop\\apps\\firefox\\current\\Firefox.exe,0"
 
 [HKEY_CURRENT_USER\Software\Classes\ScoopFirefoxHTM\shell]
 [HKEY_CURRENT_USER\Software\Classes\ScoopFirefoxHTM\shell\open]
@@ -61,4 +61,4 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\ScoopFirefoxHTM\shell\open\command]
 ;; your browser might offer different arguments here - %1 opens just the argument given
 ;;@="\"C:\\FirefoxPortable\\FirefoxPortable.exe\" \"%1\""
-@="\"C:\\Users\\Jim\\scoop\\shims\\firefox.exe\" \"%1\""
+@="\"C:\\Users\\_USERNAME_\\scoop\\shims\\firefox.exe\" \"%1\""
