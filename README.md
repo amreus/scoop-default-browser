@@ -2,7 +2,7 @@
 
 This is a Windows Registry script to register Scoop's Firefox app as the user's default browser.
 
-***Although it works for me, I do not recommend using this script as-is - it is meant as an example or template***
+***Although this script "works for me", I do not recommend using this script as-is - it is meant as an example or template***
 
 ***This script is specific to my user profile - you will need to modify to fit your needs!***
 
