@@ -14,3 +14,7 @@ In Windows, the default apps settings can be opened on the command line using:
      
 
 from https://kolbi.cz/blog/2019/01/27/register-a-portable-browser-and-make-it-the-default
+
+# References
+
+* A place to start. [Firefox NSIS Install Script](https://searchfox.org/mozilla-central/source/browser/installer/windows/nsis/shared.nsh#512)
